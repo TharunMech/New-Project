@@ -5,12 +5,12 @@ int add(int a,int b);
 
 class  CalciImp implements Calci
 {
-  int add(int x,int y )
+ public  int add(int x,int y )
 {
 return x+y;
 }
 }
-public class CalciDev
+ class CalciDev
 {
 public static void main(String[] args)
 {
